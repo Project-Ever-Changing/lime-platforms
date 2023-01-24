@@ -400,7 +400,7 @@ class MacPlatform extends PlatformTarget
 
 	public override function run():Void
 	{
-		var arguments = additionalArguments.copy();
+		var arguments:Array<String> = [];
 
 		if (Log.verbose)
 		{
